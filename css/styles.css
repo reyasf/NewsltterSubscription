@@ -1,0 +1,70 @@
+.row-f {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+
+.col-f-12,
+.col-f-10,
+.col-f-8,
+.col-f-6,
+.col-f-4,
+.col-f-2 {
+    float:left;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.col-f-12 {
+    width:100%;
+}
+
+.col-f-10 {
+    width:80%;
+}
+
+.col-f-8 {
+    width:50%;
+}
+
+.col-f-6 {
+    width:30%;
+}
+
+.col-f-4 {
+    width:20%;
+}
+
+.col-f-2 {
+    width:10%;
+}
+
+.push-right {
+    float:right;
+    text-align:right;
+}
+
+.subscription-form input {
+    width:100%;
+    min-height:40px;
+}
+
+.subscription-form .submit {
+    background: #407cff;
+    width:50%;
+    margin-top:20px;
+    border:none;
+    color:#ffffff;
+    min-height:40px;
+}
+
+input.validate-error {
+    border:1px solid red !important;
+}
+
+.subscription-form .subscription-status {
+    display:none;
+    text-align:center;
+    font-weight:bold;
+}
