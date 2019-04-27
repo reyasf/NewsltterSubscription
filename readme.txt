@@ -5,6 +5,7 @@ Usage:
 Subscription to newsletters and offers via email
  
 How to use:
+- Download the plugin and remove "-master" from the folder name
 - Copy the plugin folder to wordpress plugin directory (wp-content/plugins)
 - Activate the plugin from the admin Installed plugins page
 - Embed the subscription from in any page using the shortcode [newsletter_subscription] or using php <?php echo do_shortcode(“[newsletter_subscription]”) ?>
